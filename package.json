@@ -2,7 +2,7 @@
   "name": "NODEJS-cli_cryptocurrency_prices",
   "version": "1.0.0",
   "description": "",
-  "main": "coindex.js",
+  "main": "index.js",
   "bin": {
     "coindex": "./bin/coindex.js"
   },
@@ -24,7 +24,7 @@
     "axios": "^0.21.1",
     "colors": "^1.4.0",
     "commander": "^8.0.0",
-    "configstore": "^6.0.0",
+    "configstore": "^5.0.1",
     "dotenv": "^10.0.0",
     "inquirer": "^8.1.2"
   }
