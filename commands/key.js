@@ -30,11 +30,20 @@ const key = {
 
       return key;
     } catch (error) {
-      return error;
+      console.error(error.message.red);
     }
   },
   remove() {
-    console.log("hello from remove inside key.js");
+    try {
+      const keyManager = new KeyManager();
+      keyManager.deleteKey();
+
+      console.log("API Key Removed".blue);
+
+      return;
+    } catch (error) {
+      console.error(error.message.red);
+    }
   },
 };
 
