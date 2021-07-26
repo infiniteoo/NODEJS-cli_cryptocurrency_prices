@@ -2,9 +2,12 @@
   "name": "NODEJS-cli_cryptocurrency_prices",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "coindex.js",
+  "bin": {
+    "coindex": "./bin/coindex.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/coindex.js"
   },
   "repository": {
     "type": "git",
