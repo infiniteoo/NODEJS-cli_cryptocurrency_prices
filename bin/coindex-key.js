@@ -1,18 +1,13 @@
 const program = require("commander");
+const key = require("../commands/key");
 
 program
   .command("set")
   .description("Set API Key - Get at https://nomics.com")
-  .action(() => console.log("hello from set"));
+  .action(key.set);
 
-program
-  .command("show")
-  .description("Showe API Key")
-  .action(() => console.log("hello from show"));
+program.command("show").description("Showe API Key").action(key.show);
 
-program
-  .command("remove")
-  .description("Remove API Key")
-  .action(() => console.log("hello from remove"));
+program.command("remove").description("Remove API Key").action(key.remove);
 
 program.parse(process.argv);

@@ -3,7 +3,7 @@ const program = require("commander");
 const pkg = require("../package.json");
 require("dotenv").config();
 
-console.log("api key " + process.env.NOMICS_API_KEY);
+/* console.log("api key " + process.env.NOMICS_API_KEY); */
 
 program
   .version(pkg.version)
