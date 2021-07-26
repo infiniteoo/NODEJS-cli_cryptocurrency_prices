@@ -1,0 +1,27 @@
+{
+  "name": "NODEJS-cli_cryptocurrency_prices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infiniteoo/NODEJS-cli_cryptocurrency_prices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infiniteoo/NODEJS-cli_cryptocurrency_prices/issues"
+  },
+  "homepage": "https://github.com/infiniteoo/NODEJS-cli_cryptocurrency_prices#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "commander": "^8.0.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^8.1.2"
+  }
+}
